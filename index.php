@@ -3,7 +3,8 @@
 <main class="container py-5">
     <div class="container-fluid">
         <h1>Blog Animalys</h1>
-        <p class="mt-5">Bienvenue sur le blog d'Animalys,
+        <p class="mt-5">
+            Bienvenue sur le blog d'Animalys,
             votre source incontournable pour tout ce qui concerne le bien-être,
             les soins et la passion des animaux !
             Que vous soyez propriétaire d’un compagnon à quatre pattes,
@@ -14,7 +15,8 @@
             <br>
             Découvrez des conseils pratiques,
             des astuces pour améliorer le quotidien de vos animaux de compagnie,
-            des informations sur les différentes espèces, ainsi que des récits inspirants pour les amoureux de la nature.
+            des informations sur les différentes espèces,
+            ainsi que des récits inspirants pour les amoureux de la nature.
             Chez Animalys, nous croyons que chaque animal mérite amour, respect et attention. 🐾
             <br>
             <br>

@@ -1,0 +1,66 @@
+:root {
+  --animalys-blue: #2b7ee0;
+  --blue-hover: #2f90ff;
+}
+
+/* Font */
+@font-face {
+  font-family: "Affogato";
+  src: url("/assets/font/AffogatoBold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Affogato", sans-serif;
+  font-weight: 700;
+}
+
+/* Utilitie */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* Button */
+
+.btn-primary {
+  padding: 8px 12px;
+  background: var(--animalys-blue);
+  color: var(--bs-white);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background: var(--blue-hover);
+}
+
+/* Header & Footer */
+
+header {
+  border-bottom: solid 1px var(--bs-gray);
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 130px;
+}
+
+/* Content */
+
+main {
+  padding: 40px;
+  text-align: center;
+}

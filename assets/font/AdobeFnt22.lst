@@ -1,0 +1,54 @@
+%!Adobe-FontList 1.22
+%Locale:0x40c
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Affogato-Bold
+FamilyName:Affogato
+StyleName:Bold
+FullName:Affogato Bold
+MenuName:Affogato Bold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\User\Desktop\Works\Repositories\PHP\Animalys-Blog\assets\Font\AffogatoBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:34112
+FileModTime:1644033640
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Affogato Bold
+NameArray:0,Win,1,Affogato Bold
+NameArray:0,Win,16,Affogato
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Affogato-Regular
+FamilyName:Affogato
+StyleName:Regular
+FullName:Affogato
+MenuName:Affogato
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\User\Desktop\Works\Repositories\PHP\Animalys-Blog\assets\Font\AffogatoRegular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:32844
+FileModTime:1644033640
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Affogato
+NameArray:0,Win,1,Affogato
+%EndFont
+

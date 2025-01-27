@@ -19,7 +19,7 @@ foreach ($articles as $id => $articleCard): ?>
                 <p class="card-description"><?php echo getTextPreview($articleCard["article"]); ?></p>
                 <p class="card-date"><?php echo $articleCard["date"]; ?></p>
                 <p class="card-creator"><?php echo $articleCard["createdBy"]; ?></p>
-                <a href="../pages/single.php?id=<?php echo $id ?>" class="btn-primary">Ouvrir l'article</a>
+                <a style="width: 100%;" href="../pages/single.php?id=<?php echo $id ?>" class="btn-primary">Ouvrir l'article</a>
             </div>
         </div>
     </div>

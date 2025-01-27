@@ -37,6 +37,7 @@ h6 {
 .btn-primary {
   display: flex;
   justify-content: center;
+  width: fit-content;
   padding: 8px 12px;
   background: var(--animalys-blue);
   color: var(--bs-white);

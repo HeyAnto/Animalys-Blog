@@ -3,10 +3,14 @@
 <main class="container py-5">
     <div class="container-fluid">
         <h1>Nous contacter</h1>
-        <p class="mt-5">
-            Description
-        </p>
-        <img class="rounded img-fluid d-block mt-5" src="#" alt="">
+        <div class="row align-items-center mt-5">
+            <div class="col-md-12 col-lg-6 text-center">
+                <img class="rounded img-fluid d-block" src="../assets/img/img-contact.webp" alt="Adam Creation">
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <p>Contact</p>
+            </div>
+        </div>
     </div>
 </main>
 

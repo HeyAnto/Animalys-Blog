@@ -3,30 +3,42 @@
 <main class="container py-5">
     <div class="container-fluid">
         <h1>Blog Animalys</h1>
-        <p class="mt-5">
-            Bienvenue sur le blog d'Animalys,
-            votre source incontournable pour tout ce qui concerne le bien-être,
-            les soins et la passion des animaux !
-            Que vous soyez propriétaire d’un compagnon à quatre pattes,
-            passionné par la faune sauvage,
-            ou curieux d'en apprendre davantage sur nos amis les animaux,
-            vous êtes au bon endroit.
-            <br>
-            <br>
-            Découvrez des conseils pratiques,
-            des astuces pour améliorer le quotidien de vos animaux de compagnie,
-            des informations sur les différentes espèces,
-            ainsi que des récits inspirants pour les amoureux de la nature.
-            Chez Animalys, nous croyons que chaque animal mérite amour, respect et attention. 🐾
-            <br>
-            <br>
-            Explorez, apprenez et partagez votre passion avec nous !
-        </p>
-        <img class="rounded img-fluid d-block mt-5" src="/assets/img/accueil/img-cat.webp" alt="Chat">
+        <div class="row align-items-center mt-5">
+            <div class="col-md-12 col-lg-6">
+                <p>
+                    Bienvenue sur le blog <b>d’Animalys</b>,
+                    votre source d’inspiration pour tout ce qui touche au <b>sport</b> !
+                    Que vous soyez passionné par le fitness,
+                    amateur de sports extrêmes,
+                    curieux des dernières tendances ou simplement en quête de conseils pour rester actif,
+                    nous avons tout ce qu’il vous faut.
+                    <br><br>
+                    <b>Nos articles couvrent une variété de sujets :</b>
+                    <br>
+                    ⚽ Analyse des grands événements sportifs
+                    <br>
+                    🌍 Découvertes de disciplines insolites et venues des quatre coins du monde
+                    <br>
+                    💡 Conseils santé et bien-être pour améliorer vos performances
+                    <br>
+                    👟 Matériel et équipements incontournables
+                    <br><br>
+                    Notre mission ? <b>Partager notre passion du sport</b> et vous encourager à relever de nouveaux défis,
+                    quel que soit votre objectif.
+                    Avec <b>Animalys</b>, explorez,
+                    apprenez et dépassez vos limites à chaque étape.
+                    <br><br>
+                    Prêt à bouger ? 🏃‍♂️💨 Suivez-nous et faites partie de la communauté Animalys !
+                </p>
+            </div>
+            <div class="col-md-12 col-lg-6 text-center">
+                <img class="rounded img-fluid d-block" src="/assets/img/img_index.webp" alt="Sport">
+            </div>
+        </div>
     </div>
     <div class="container-fluid mt-5">
         <div class="row align-items-start g-5">
-            <?php include_once 'includes/card.php'; ?>
+            <?php include_once "includes/card.php"; ?>
         </div>
     </div>
 </main>

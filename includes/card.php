@@ -1,5 +1,5 @@
 <?php
-include 'data.php';
+include_once "data.php";
 
 function getTextPreview($texte)
 {
@@ -10,16 +10,16 @@ function getTextPreview($texte)
     }
 }
 
-foreach ($articles as $articlesCard): ?>
+foreach ($articles as $id => $articleCard): ?>
     <div class="col-12 col-sm-12 col-md-6 col-lg-4">
         <div class="card" style="width: 100%;">
-            <img src="../assets/img/blog/<?php echo $articlesCard["imagePath"]; ?>" class="card-img-top" alt="<?php echo $articlesCard["name"]; ?>">
+            <img src="../assets/img/blog/<?php echo $articleCard["imagePath"]; ?>" class="card-img-top" alt="<?php echo $articleCard["name"]; ?>">
             <div class="card-body">
-                <h5 class="card-title"><?php echo $articlesCard["name"]; ?></h5>
-                <p class="card-description"><?php echo getTextPreview($articlesCard["article"]); ?></p>
-                <p class="card-date"><?php echo $articlesCard["date"]; ?></p>
-                <p class="card-creator"><?php echo $articlesCard["createdBy"]; ?></p>
-                <a href="#" class="btn-primary">Ouvrir l'article</a>
+                <h5 class="card-title"><?php echo $articleCard["name"]; ?></h5>
+                <p class="card-description"><?php echo getTextPreview($articleCard["article"]); ?></p>
+                <p class="card-date"><?php echo $articleCard["date"]; ?></p>
+                <p class="card-creator"><?php echo $articleCard["createdBy"]; ?></p>
+                <a href="../pages/single.php?id=<?php echo $id ?>" class="btn-primary">Ouvrir l'article</a>
             </div>
         </div>
     </div>

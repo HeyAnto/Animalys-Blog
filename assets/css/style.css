@@ -57,6 +57,17 @@ h6 {
 
 /* Header & Footer */
 
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
 header {
   border-bottom: solid 1px var(--bs-gray);
   text-align: center;

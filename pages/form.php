@@ -7,10 +7,12 @@
             <div class="alert alert-success text-center" role="alert">
                 Votre message a été envoyé avec succès !
             </div>
-            <p><b>Nom :</b> <?php echo $_POST["name"] ?> </p>
-            <p><b>Email :</b> <?php echo $_POST["email"] ?> </p>
-            <p><b>Sujet :</b> <?php echo $_POST["subject"] ?> </p>
-            <p class="message-box"><b>Message :</b> <?php echo $_POST["message"] ?> </p>
+            <div>
+                <p class="message-box"><b>Nom :</b> <?php echo $_POST["name"] ?> </p>
+                <p class="message-box"><b>Email :</b> <?php echo $_POST["email"] ?> </p>
+                <p class="message-box"><b>Sujet :</b> <?php echo $_POST["subject"] ?> </p>
+                <p class="message-box"><b>Message :</b> <?php echo $_POST["message"] ?> </p>
+            </div>
         <?php else: ?>
             <div class="alert alert-danger text-center" role="alert">
                 Aucune données trouver.

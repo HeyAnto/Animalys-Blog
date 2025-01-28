@@ -47,6 +47,7 @@ h6 {
   padding: 8px 12px;
   background: var(--animalys-blue);
   color: var(--bs-white);
+  border: none;
   border-radius: 5px;
   text-decoration: none;
 }

@@ -32,6 +32,12 @@ h6 {
   box-sizing: border-box;
 }
 
+.message-box {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  overflow: hidden;
+}
+
 /* Button */
 
 .btn-primary {

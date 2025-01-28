@@ -5,8 +5,8 @@
         <h1>Nous contacter</h1>
         <div class="row mt-5">
             <div class="col-md-12 col-lg-6">
-                <form id="contactForm">
 
+                <form id="contactForm" method="POST" action="form.php">
                     <div class="mb-3">
                         <label for="name" class="form-label">Nom</label>
                         <input type="text" class="form-control" id="name" name="name" placeholder="Votre nom" required>
@@ -38,6 +38,7 @@
 
                     <button type="submit" class="btn-primary">Envoyer</button>
                 </form>
+
             </div>
             <div class="col-md-12 col-lg-6 mt-5">
                 <img class="rounded img-fluid d-block" src="../assets/img/img-contact.webp" alt="Adam Creation">
